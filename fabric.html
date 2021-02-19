@@ -191,6 +191,9 @@ fabric_version={fabric_version}</code></pre>
         if (version.startsWith("20w")) {
             branch = "1.16"
         }
+        if (version.startsWith("21w")) {
+            branch = "1.17"
+        }
 
         findVersion(versionUrl, branch,
             function (version) {
